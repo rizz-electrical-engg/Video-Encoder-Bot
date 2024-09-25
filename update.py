@@ -22,8 +22,8 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
                     handlers=[logging.FileHandler('log.txt'), logging.StreamHandler()],
                     level=logging.INFO)
 
-UPSTREAM_REPO = 'https://github.com/rizz-electrical-engg/Video-Encoder-Bot.git'
-UPSTREAM_BRANCH = 'beta'
+UPSTREAM_REPO = ''
+UPSTREAM_BRANCH = ''
 
 if UPSTREAM_REPO is not None:
     if ospath.exists('.git'):
